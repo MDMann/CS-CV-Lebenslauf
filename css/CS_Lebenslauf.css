@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,700,300,400);
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #3a3d3f;
+}
+/* Profil */
+.GrosserBalkenProfil {
+	position: fixed;
+	top: 0px;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	display: block;
+	padding: 0px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #1e9fcc;
+	padding-top: 23%;
+}
+.Profilbild {
+	display: block;
+	padding: 5px;
+	margin: 2%;
+	width: 95%;
+}
+.Ichbin {
+	display: block;
+	text-align: center;
+	font-size: 1vw;
+}
+	.SizeIchBin {
+		font-size: 70%;
+		font-style: italic;
+		vertical-align: top;
+	}
+.Beruf {
+	background-color: #3a3d3f;
+	position: relative;
+	display: block;
+	max-height: 20px;
+	color: #1e9fcc;
+	text-align: center;
+	font-size: 1vw;
+}
+	.FixedBild {
+		position: fixed;
+		z-index: 1002;
+		background-color: #1e9fcc;
+		padding: 0;
+	}
+.Item {
+	display: inline;
+	padding-left: 3px;
+	width: 12%;
+	font-size: 70%;
+}
+.Border {
+	background-color: #3a3d3f;
+	height: 1px;
+	z-index: 1001;
+	margin: 4px 0px 4px 0px;
+}
+
+/* Rechts */
+.Hintergrund {
+	background-color: white;
+	padding: 0;
+	top: 0px;
+	margin-top: 0px;
+}
+.Logo {
+	position: fixed;
+	top: 3px;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	margin-left: 79%;
+	display: block;
+	float: right;
+	width: 20%;
+}
+.navbar {
+	position: fixed;
+	left:50%;
+/*	margin-top: 0px;
+*/	margin-left:-254px;
+/*	padding: 0px;
+*/}
+.button {
+	position: relative;
+	float: left;
+	background-color: #3a3d3f;
+	height: 30px;
+	width: 130px;
+	margin: 0px 3px 3px 3px;
+	padding: 1%;
+/*	top: 0px;
+*/	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	color: white;
+	list-style-type: none;
+	text-align: center;
+}
+.Timeline {
+	background-color: #3a3d3f;
+	display: block;
+	height: 30px;
+	width: 200px;
+	padding: 0px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: center;
+	font-size: 22px;
+	color: white;
+}
+.beispiel {
+	margin-left: 50px;
+	background-color: blue;
+	height: 1000px;
+	width: 1000px;
+}
+
+
+
+
